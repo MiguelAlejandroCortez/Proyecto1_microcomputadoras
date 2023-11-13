@@ -54,12 +54,14 @@ begin    --Empiezo del Behavioral
 process(A,B,C,Ci,Bandera)  --ESTO ES PARA SUMA DE A + B 
 begin
 	Bandera <= '1'; --Asignamos a Bandera '1' porque se usaran A y B
-	C(0)<=Ci; -- Asignacion de Acarreo de Entrada
-	for i in 0 to n-1 loop
-		S(i)<=(A(i) XOR B(i))XOR C(i);
-		C(i+1)<=((A(i) AND B(i)) OR (A(i) AND C(i))) OR (B(i) AND C(i));
-	end loop;
-	Co<= C(n);
+	if Bandera = '1' then
+		C(0)<=Ci; -- Asignacion de Acarreo de Entrada
+		for i in 0 to n-1 loop
+			S(i)<=(A(i) XOR B(i))XOR C(i);
+			C(i+1)<=((A(i) AND B(i)) OR (A(i) AND C(i))) OR (B(i) AND C(i));
+		end loop;
+		Co<= C(n);
+	end if;
 end process; --TERMINA LO DE SUMA DE A + B
 
 process(A,B,Bandera)  --ESTO ES PARA A and B 
