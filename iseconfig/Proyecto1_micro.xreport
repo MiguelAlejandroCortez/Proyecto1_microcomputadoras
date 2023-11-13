@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2023-11-12T19:12:13</DateModified>
+  <DateModified>2023-11-13T16:34:51</DateModified>
   <ModuleName>Proyecto1_micro</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/Asus/Desktop/MicroComputadoras/Proyecto1_micro/iseconfig/Proyecto1_micro.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Asus/Desktop/MicroComputadoras/Proyecto1_micro</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/Asus/Desktop/MicroComputadoras/Proyecto1_micro\</ImplementationReportsDirectory>
   <DateInitialized>2023-11-12T18:33:00</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

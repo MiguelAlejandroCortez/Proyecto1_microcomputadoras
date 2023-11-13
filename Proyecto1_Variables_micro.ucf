@@ -1,28 +1,24 @@
-#ENTRADAS DE A
-NET "A[0]" LOC = T10;
-NET "A[1]" LOC = T9;
-NET "A[2]" LOC = V9;
-NET "A[3]" LOC = M8;
-
-#ENTRADAS DE B
-NET "B[0]" LOC = N8;
-NET "B[1]" LOC = U8;
-NET "B[2]" LOC = V8;
-NET "B[3]" LOC = T5;
-
-#ENTRADA ACARREO DE ENTRADA
-NET "Ci" LOC = C4;
+#ENTRADAS DE INPUT_VECTOR  Estas entradas para asignar A y B
+NET "Input_Vector[0]" LOC = T10;
+NET "Input_Vector[1]" LOC = T9;
+NET "Input_Vector[2]" LOC = V9;
+NET "Input_Vector[3]" LOC = M8;
+#(tomar en cuenta si tu afectas este input_vector durante una operación ya seleccionado no se afectara el resultador)
 
 #ENTRADAS DE S
-NET "S[0]" LOC = ;
-NET "S[1]" LOC = ;
-NET "S[2]" LOC = ;
-
+NET "S[0]" LOC = N8; #Este es Ci.
+NET "S[1]" LOC = U8;
+NET "S[2]" LOC = V8;
+NET "S[3]" LOC = T5;
 
 #SALIDAS
 NET "R[0]" LOC = U16;
 NET "R[1]" LOC = V16;
 NET "R[2]" LOC = U15;
 NET "R[3]" LOC = V15;
+
+#Señales de reseteo y asignacion
+NET "Asg[0]" LOC = ;  #Boton para asignar los bits de Input_Vector a A y posteriormente a B
+NET "Rst[0]" LOC = ; #Boton para realizar un reseto de A y B
 
 NET "Co" loc = T11;

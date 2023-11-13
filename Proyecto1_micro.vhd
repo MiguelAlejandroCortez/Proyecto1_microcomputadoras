@@ -33,25 +33,64 @@ entity Proyecto1_micro is
 generic(
 n: integer :=4 --Definicion de valor de N
 );
-    Port ( A,B: in  STD_LOGIC_VECTOR (n-1 downto 0);
-			  S : in  STD_LOGIC_VECTOR (n-2 downto 0);
-           Ci : in  STD_LOGIC;
+    Port ( Input_Vector: in  STD_LOGIC_VECTOR (n-1 downto 0);
+			  S : in  STD_LOGIC_VECTOR (n-1 downto 0);
            R : out  STD_LOGIC_VECTOR (n-1 downto 0);
-           Co : out  STD_LOGIC);
+           Co : out  STD_LOGIC;
+			  Asg : in  STD_LOGIC;
+			  Rst : in  STD_LOGIC
+			  );
+			  
 end Proyecto1_micro;
 
-architecture Behavioral of Proyecto1_micro is
+architecture Behavioral of Proyecto1_micro is      --Declaracin de 
 signal C : STD_LOGIC_VECTOR (n downto 0); -- Los acarreos intermedios de la suma
+signal A : STD_LOGIC_VECTOR (n-1 downto 0); -- Temporal de de Primer ingreso
+signal B : STD_LOGIC_VECTOR (n-1 downto 0); -- Temporal de de Segundo ingreso
+signal Bandera : STD_LOGIC; -- Bandera para identificar si se ocuparan A y B o solo se usara A
+
+
+begin    --Empiezo del Behavioral
+process(A,B,C,Ci,Bandera)  --ESTO ES PARA SUMA DE A + B 
 begin
-process(A,B,C,Ci)  --ESTO ES PARA SUMA DE A + B 
-begin
-C(0)<=Ci; -- Asignacion de Acarreo de Entrada
-for i in 0 to n-1 loop
-S(i)<=(A(i) XOR B(i))XOR C(i);
-C(i+1)<=((A(i) AND B(i)) OR (A(i) AND C(i))) OR (B(i) AND C(i));
-end loop;
-Co<= C(n);
+	Bandera <= '1'; --Asignamos a Bandera '1' porque se usaran A y B
+	C(0)<=Ci; -- Asignacion de Acarreo de Entrada
+	for i in 0 to n-1 loop
+		S(i)<=(A(i) XOR B(i))XOR C(i);
+		C(i+1)<=((A(i) AND B(i)) OR (A(i) AND C(i))) OR (B(i) AND C(i));
+	end loop;
+	Co<= C(n);
 end process; --TERMINA LO DE SUMA DE A + B
 
-end Behavioral;
+process(A,B,Bandera)  --ESTO ES PARA A and B 
+begin
+	Bandera <= '1'; --Asignamos a Bandera '1' porque se usaran A y B
+    if Bandera = '1' then
+        for i in 0 to n-1 loop
+            S(i) <= A(i) AND B(i);
+        end loop;
+    end if;
+end process; --TERMINA LO DE A and B
+
+process(A,B,Bandera)  --ESTO ES PARA A or B 
+begin
+	Bandera <= '1'; --Asignamos a Bandera '1' porque se usaran A y B
+    if Bandera = '1' then
+        for i in 0 to n-1 loop
+            S(i) <= A(i) OR B(i);
+        end loop;
+    end if;
+end process; --TERMINA LO DE A or B
+
+process(A,B,Bandera)  --ESTO ES PARA A xor B 
+begin
+	Bandera <= '1'; --Asignamos a Bandera '1' porque se usaran A y B
+    if Bandera = '1' then
+        for i in 0 to n-1 loop
+            S(i) <= A(i) XOR B(i);
+        end loop;
+    end if;
+end process; --TERMINA LO DE A xor B
+
+end Behavioral; --TERMINA BEHAVIOR TODO EL CODIGO PUES
 
