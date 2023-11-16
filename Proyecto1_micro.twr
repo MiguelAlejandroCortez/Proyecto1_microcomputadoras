@@ -1,0 +1,68 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml Proyecto1_micro.twx Proyecto1_micro.ncd -o
+Proyecto1_micro.twr Proyecto1_micro.pcf
+
+Design file:              Proyecto1_micro.ncd
+Physical constraint file: Proyecto1_micro.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Selector<0>    |Respuesta<0>   |    6.571|
+Selector<0>    |Respuesta<1>   |    6.940|
+Selector<0>    |Respuesta<2>   |    7.100|
+Selector<0>    |Respuesta<3>   |    6.939|
+Selector<1>    |Respuesta<0>   |    6.501|
+Selector<1>    |Respuesta<1>   |    6.943|
+Selector<1>    |Respuesta<2>   |    7.103|
+Selector<1>    |Respuesta<3>   |    6.942|
+Selector<2>    |Respuesta<0>   |    6.624|
+Selector<2>    |Respuesta<1>   |    6.956|
+Selector<2>    |Respuesta<2>   |    7.116|
+Selector<2>    |Respuesta<3>   |    6.955|
+Selector<3>    |Respuesta<0>   |    6.608|
+Selector<3>    |Respuesta<1>   |    6.455|
+Selector<3>    |Respuesta<2>   |    6.615|
+Selector<3>    |Respuesta<3>   |    6.454|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Nov 16 16:11:24 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4573 MB
+
+
+

@@ -1,0 +1,156 @@
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Proyecto1_Variables_micro.ucf -p xc6slx16-csg324-3 Proyecto1_micro.ngc Proyecto1_micro.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Proyecto1_micro.ngc Proyecto1_micro.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Proyecto1_micro_map.ncd Proyecto1_micro.ngd Proyecto1_micro.pcf 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Proyecto1_micro.ngc Proyecto1_micro.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Proyecto1_micro_map.ncd Proyecto1_micro.ngd Proyecto1_micro.pcf 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Proyecto1_micro.ngc Proyecto1_micro.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Proyecto1_micro_map.ncd Proyecto1_micro.ngd Proyecto1_micro.pcf 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Proyecto1_micro.ngc Proyecto1_micro.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Proyecto1_micro_map.ncd Proyecto1_micro.ngd Proyecto1_micro.pcf 
+par -w -intstyle ise -ol high -mt off Proyecto1_micro_map.ncd Proyecto1_micro.ncd Proyecto1_micro.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Proyecto1_micro.twx Proyecto1_micro.ncd -o Proyecto1_micro.twr Proyecto1_micro.pcf 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Proyecto1_micro.ngc Proyecto1_micro.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Proyecto1_micro_map.ncd Proyecto1_micro.ngd Proyecto1_micro.pcf 
+par -w -intstyle ise -ol high -mt off Proyecto1_micro_map.ncd Proyecto1_micro.ncd Proyecto1_micro.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Proyecto1_micro.twx Proyecto1_micro.ncd -o Proyecto1_micro.twr Proyecto1_micro.pcf 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Proyecto1_micro.ngc Proyecto1_micro.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Proyecto1_micro_map.ncd Proyecto1_micro.ngd Proyecto1_micro.pcf 
+par -w -intstyle ise -ol high -mt off Proyecto1_micro_map.ncd Proyecto1_micro.ncd Proyecto1_micro.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Proyecto1_micro.twx Proyecto1_micro.ncd -o Proyecto1_micro.twr Proyecto1_micro.pcf 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Proyecto1_micro.ngc Proyecto1_micro.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Proyecto1_micro_map.ncd Proyecto1_micro.ngd Proyecto1_micro.pcf 
+par -w -intstyle ise -ol high -mt off Proyecto1_micro_map.ncd Proyecto1_micro.ncd Proyecto1_micro.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Proyecto1_micro.twx Proyecto1_micro.ncd -o Proyecto1_micro.twr Proyecto1_micro.pcf 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Proyecto1_micro.ngc Proyecto1_micro.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Proyecto1_micro_map.ncd Proyecto1_micro.ngd Proyecto1_micro.pcf 
+par -w -intstyle ise -ol high -mt off Proyecto1_micro_map.ncd Proyecto1_micro.ncd Proyecto1_micro.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Proyecto1_micro.twx Proyecto1_micro.ncd -o Proyecto1_micro.twr Proyecto1_micro.pcf 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Proyecto1_micro.ngc Proyecto1_micro.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Proyecto1_micro_map.ncd Proyecto1_micro.ngd Proyecto1_micro.pcf 
+par -w -intstyle ise -ol high -mt off Proyecto1_micro_map.ncd Proyecto1_micro.ncd Proyecto1_micro.pcf 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Proyecto1_micro.ngc Proyecto1_micro.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Proyecto1_micro_map.ncd Proyecto1_micro.ngd Proyecto1_micro.pcf 
+par -w -intstyle ise -ol high -mt off Proyecto1_micro_map.ncd Proyecto1_micro.ncd Proyecto1_micro.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Proyecto1_micro.twx Proyecto1_micro.ncd -o Proyecto1_micro.twr Proyecto1_micro.pcf 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Proyecto1_micro.ngc Proyecto1_micro.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Proyecto1_micro_map.ncd Proyecto1_micro.ngd Proyecto1_micro.pcf 
+par -w -intstyle ise -ol high -mt off Proyecto1_micro_map.ncd Proyecto1_micro.ncd Proyecto1_micro.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Proyecto1_micro.twx Proyecto1_micro.ncd -o Proyecto1_micro.twr Proyecto1_micro.pcf 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Proyecto1_micro.ngc Proyecto1_micro.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Proyecto1_micro_map.ncd Proyecto1_micro.ngd Proyecto1_micro.pcf 
+par -w -intstyle ise -ol high -mt off Proyecto1_micro_map.ncd Proyecto1_micro.ncd Proyecto1_micro.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Proyecto1_micro.twx Proyecto1_micro.ncd -o Proyecto1_micro.twr Proyecto1_micro.pcf 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Proyecto1_micro.ngc Proyecto1_micro.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Proyecto1_micro_map.ncd Proyecto1_micro.ngd Proyecto1_micro.pcf 
+par -w -intstyle ise -ol high -mt off Proyecto1_micro_map.ncd Proyecto1_micro.ncd Proyecto1_micro.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Proyecto1_micro.twx Proyecto1_micro.ncd -o Proyecto1_micro.twr Proyecto1_micro.pcf 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Proyecto1_micro.ngc Proyecto1_micro.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Proyecto1_micro_map.ncd Proyecto1_micro.ngd Proyecto1_micro.pcf 
+par -w -intstyle ise -ol high -mt off Proyecto1_micro_map.ncd Proyecto1_micro.ncd Proyecto1_micro.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Proyecto1_micro.twx Proyecto1_micro.ncd -o Proyecto1_micro.twr Proyecto1_micro.pcf 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Proyecto1_micro.ngc Proyecto1_micro.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Proyecto1_micro_map.ncd Proyecto1_micro.ngd Proyecto1_micro.pcf 
+par -w -intstyle ise -ol high -mt off Proyecto1_micro_map.ncd Proyecto1_micro.ncd Proyecto1_micro.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Proyecto1_micro.twx Proyecto1_micro.ncd -o Proyecto1_micro.twr Proyecto1_micro.pcf 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Proyecto1_micro.ngc Proyecto1_micro.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Proyecto1_micro_map.ncd Proyecto1_micro.ngd Proyecto1_micro.pcf 
+par -w -intstyle ise -ol high -mt off Proyecto1_micro_map.ncd Proyecto1_micro.ncd Proyecto1_micro.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Proyecto1_micro.twx Proyecto1_micro.ncd -o Proyecto1_micro.twr Proyecto1_micro.pcf 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Proyecto1_micro.ngc Proyecto1_micro.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Proyecto1_micro_map.ncd Proyecto1_micro.ngd Proyecto1_micro.pcf 
+par -w -intstyle ise -ol high -mt off Proyecto1_micro_map.ncd Proyecto1_micro.ncd Proyecto1_micro.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Proyecto1_micro.twx Proyecto1_micro.ncd -o Proyecto1_micro.twr Proyecto1_micro.pcf 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Proyecto1_micro.ngc Proyecto1_micro.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Proyecto1_micro_map.ncd Proyecto1_micro.ngd Proyecto1_micro.pcf 
+par -w -intstyle ise -ol high -mt off Proyecto1_micro_map.ncd Proyecto1_micro.ncd Proyecto1_micro.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Proyecto1_micro.twx Proyecto1_micro.ncd -o Proyecto1_micro.twr Proyecto1_micro.pcf 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Proyecto1_micro.ngc Proyecto1_micro.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Proyecto1_micro_map.ncd Proyecto1_micro.ngd Proyecto1_micro.pcf 
+par -w -intstyle ise -ol high -mt off Proyecto1_micro_map.ncd Proyecto1_micro.ncd Proyecto1_micro.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Proyecto1_micro.twx Proyecto1_micro.ncd -o Proyecto1_micro.twr Proyecto1_micro.pcf 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Proyecto1_micro.ngc Proyecto1_micro.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Proyecto1_micro_map.ncd Proyecto1_micro.ngd Proyecto1_micro.pcf 
+par -w -intstyle ise -ol high -mt off Proyecto1_micro_map.ncd Proyecto1_micro.ncd Proyecto1_micro.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Proyecto1_micro.twx Proyecto1_micro.ncd -o Proyecto1_micro.twr Proyecto1_micro.pcf 
+xst -intstyle ise -ifn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.xst" -ofn "C:/Users/Diego/Desktop/Programas/Proyecto1_microcomputadoras-main/Proyecto1_micro.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Proyecto1_micro.ngc Proyecto1_micro.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Proyecto1_micro_map.ncd Proyecto1_micro.ngd Proyecto1_micro.pcf 
+par -w -intstyle ise -ol high -mt off Proyecto1_micro_map.ncd Proyecto1_micro.ncd Proyecto1_micro.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Proyecto1_micro.twx Proyecto1_micro.ncd -o Proyecto1_micro.twr Proyecto1_micro.pcf 
